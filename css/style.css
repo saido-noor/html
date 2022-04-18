@@ -1,0 +1,225 @@
+body{
+	background-color: lightgrey;
+	font-family: tt norms;
+}
+ul{
+	width: 40%;
+	display:flex;
+	list-style-type: none;
+}
+.logo{
+	width: 70%
+}
+nav{
+	display: flex;
+	background-color: black;
+}
+ul li a{
+	font-size: 22px;
+	text-decoration: none;
+	margin: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+li a:hover{
+	color: red;
+}
+li a:active{
+	color: yellow;
+}
+.container-1{
+	display: flex;
+	border: 5px sienna dotted;
+	margin: 50px;
+	padding: 20px;
+	background-color: white;
+}
+.abt{
+	padding-top: 20px;
+	font-family: TT norms,Helvetica,sans-serif;
+}
+.omar{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.out{
+	margin: 0 auto;
+	width: 1300px;
+	height: 750px;
+	background-image: url("../images/laptop.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hello{
+	margin: 0 auto;
+	width: 1300px;
+	height: 750px;
+	background-image: url("../images/big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+	text-align: center;
+	padding-top: 310px;
+	font-size: 30px;
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+}
+.p1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+.ekile{
+	float: left;
+	color: white;
+   	border: none;
+   	width: 50%;
+   	padding: 30px;
+   	box-sizing: border-box;
+   	}
+   	 form{
+   padding: 10px 0;
+   }
+   form .form-group{
+   	padding-bottom: 18px;
+   }
+   form label{
+   	width: 50%;
+   	padding: 8px;
+   	display: block;
+   }
+   form input{
+   	width: 84%;
+   	padding: 10px;
+   	 	
+   }
+   button{
+   	border: none;
+   	width: 50%;
+   	background-color: #4CAF50;
+   	color: white;
+   	padding: 16px 20px;
+   	margin: 8px 0px;
+   	cursor: pointer;
+   	opacity: 0.9;
+
+   }
+   .ink{
+   	padding-top: 250px;
+
+   }
+   .two{
+   	float: left;
+   	width: 50%;
+   }
+   .two1{
+   	float: left;
+   	width: 50%;
+   	padding-top: 100px;
+   }
+   .but{
+   margin: 0 auto;
+	width: 1300px;
+	height: 450px;
+	background-image: url("../images/compu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+.h3{
+	text-align: center;
+	padding-top: 200px;
+	font-size: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	font-family: tt norms;
+}
+table{
+			width: 100%
+		}
+		table,tr,td,th{
+		
+			border: 1px solid black;
+			text-align: center;
+			border-collapse: collapse;
+		}
+		td{
+           line-height: 45px;
+           font-size: 25px;
+		}
+		th{
+			text-transform: uppercase;
+			padding: 24px;
+		}
+		td:nth-child(5n+1){
+             background-color: red;
+		}
+		td:nth-child(5n+2){
+             background-color: green;
+		}
+		td:nth-child(5n+3){
+             background-color: yellow;
+		}
+		td:nth-child(5n+4){
+             background-color: pink;
+		}
+		td:nth-child(5n+5){
+             background-color: blue;
+		}
+		h1{
+			text-align: center;
+			color: white;
+		}
+		h4{
+			text-align: center;
+			font-size: 19px;
+			font-weight: bold;
+		}
+		.get{
+			color: black;
+			font-family: TT norms;
+		}
+		.said{
+	        float: left;
+	        width: 50%;
+	        padding: 10px;
+	        box-sizing: border-box;
+		}
+		.sa1{
+			 float: left;
+	        width: 50%;
+	        padding: 10px;
+	        box-sizing: border-box;
+	        padding-top: 50px;
+		}
+	
+/*		.column{
+			float: left;
+			width: 50%;
+			
+
+		}*/
+
+		/* Create two equal columns that floats next to each other */
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.colo{
+	padding-top:  20px;
+	box-sizing: border-box;
+}
+.co{
+	padding-top: 50px;
+}
